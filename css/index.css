@@ -1,0 +1,40 @@
+html,
+body {
+    margin: 0;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.wrap {
+    position: relative;
+    height: 100%;
+}
+.view,
+.boxZ,
+.box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
+
+.box span {
+    position: absolute;
+    width: 129px;
+    height: 1170px;
+    margin-left: -64.5px;
+    margin-top: -585px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.secBj {
+    position: absolute;
+    top: 0;
+    left:  0;
+    bottom: 0;
+    right: 0;
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+    opacity: 0;
+}
